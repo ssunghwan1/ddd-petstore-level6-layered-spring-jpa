@@ -11,7 +11,12 @@ mvn spring-boot:run
 
 ## 미션
 - JPA를 통한 Database Input/Output Adapter 자동생성
-- Spring Data REST 를 통한 REST API Input/Output Adaptor 자동생성
+- Spring Data REST 를 통한 REST API Input/Output Adaptor 자동생성 (코드 비교 하면서 추가)
+- 등록된 강아지를 httpie 로 확인한다:
+```
+http :8080/pets
+```
+> httpie 가 설치되지 않은 경우: pip install httpie
 
 ## 미션2
 - maria db 를 이용하여 연결:
