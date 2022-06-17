@@ -1,9 +1,12 @@
 
 package com.demo.onepos.domain;
 
+import java.util.List;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
 @Entity 
 public class Cook{
@@ -17,6 +20,9 @@ public class Cook{
     int qty;
     int holeflag;
     int tableNo;
+
+    @OneToMany
+    List<Menu> menus;
 
     CookStatus cookStatus;
     
