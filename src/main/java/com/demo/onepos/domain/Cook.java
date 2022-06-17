@@ -26,6 +26,28 @@ public class Cook{
 
     CookStatus cookStatus;
     
+    public void sendConfirm(){
+
+    }
+    public void getStock(){
+
+    }
+    public void cookStart(){
+
+    }
+    public void cookEnd(){
+
+    }
+    public void stockSend(){
+
+    }
+    public void servingRequest(){
+
+    }
+    public void sendToKakao(){
+        
+    }
+
     public CookStatus getCookStatus() {
         return cookStatus;
     }
